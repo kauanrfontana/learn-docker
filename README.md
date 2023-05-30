@@ -1,4 +1,6 @@
-# Docker basic commands
+![image](https://github.com/kauanrfontana/BasicDocker/assets/96593822/7ff1b112-298f-4f6b-8551-c69e37b659d5)
+# Docker basic commands 
+
 
 ## `docker image ls`
 Lista todas as imagens instaladas no seu docker.
