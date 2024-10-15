@@ -3,36 +3,36 @@
 
 
 ## `docker image ls`
-Lista todas as imagens instaladas no seu docker.
+List all docker images.
 
 ## `docker rmi [hash||nomeDaImagem]`
-Deleta a imagem.
+Delete a image.
 
 ## `docker ps -a`
-Lista todos os containers já executados.
+List all containers executed.
 
 ## `docker ps`
-Lista os containers em execução.
+List containers running.
 
 ## `docker rmi [id||nomeDoContainer]`
-Deleta o container.
+Delete a container.
 
 ## `docker stop [id||nomeDoContainer]`
-Para a execução do container.
+Stop a running container.
 
 ## `docker start [id||nomeDoContainer]`
-Reinicia um container que já foi iniciado outrora.
+Restart a container.
 
 ## `docker run [hash||nomeDaImagem]`
-Cria o container com a imagem selecionada, caso não possua a imagem ele a instalará.
+Create a container with selected image.
 
 ### Flags
-* `-d` executa em segundo plano, sem ocupar o terminal atual.
+* `-d` execute in second plan.
 * `-p` 80:80 passa a porta em que  o container será executado, primeira porta é a do PC real, e segunda é a porta virtual.
-* `--name container-name` dá um nome ao container para facilitar sua reinicialização.
+* `--name container-name` give the container a nickname to make it easier to reboot.
 
 ## `docker build .`
-Constrói a imagem criada para a execução como um container.
+build a docker image.
 
 ### Flag
-* `-t image-name` dá um nome a nova imagem para facilitar sua inicialização.
+* `-t image-name` give the image a name to make easiet it to start.
