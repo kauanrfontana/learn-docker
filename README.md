@@ -35,4 +35,4 @@ Create a container with selected image.
 build a docker image.
 
 ### Flag
-* `-t image-name` give the image a name to make easiet it to start.
+* `-t image-name` give the image a name to make easier it to start.
